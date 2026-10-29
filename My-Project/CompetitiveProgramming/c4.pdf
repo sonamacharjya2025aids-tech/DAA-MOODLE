@@ -1,50 +1,54 @@
 %PDF-1.4
+% DAA study sheet
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 5 0 obj
-<< /Length 342 >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1242 >>
 stream
-BT
-/F1 14 Tf
-72 740 Td
-(Design and Analysis of Algorithms) Tj
-0 -30 Td
-(Topic: CompetitiveProgramming) Tj
-0 -30 Td
-(File: c4.pdf) Tj
-0 -30 Td
-() Tj
-0 -30 Td
-(Placeholder document) Tj
-0 -30 Td
-(Add the actual problem statement here.) Tj
-0 -30 Td
-(Include the algorithm and solution.) Tj
-0 -30 Td
-(Add time and space complexity analysis.) Tj
-ET
+BT /F2 17 Tf 54 748 Td (Sliding Window - Maximum Sum of Size K) Tj ET
+BT /F1 10 Tf 54 723 Td (Topic: CompetitiveProgramming    File: c4.pdf) Tj ET
+0.6 w 54 711 m 558 711 l S
+BT /F2 10 Tf 54 692 Td (PROBLEM) Tj ET
+BT /F1 10 Tf 54 678 Td (Find the maximum sum among all contiguous subarrays of exactly k elements.) Tj ET
+BT /F2 10 Tf 54 658 Td (APPROACH) Tj ET
+BT /F1 10 Tf 54 644 Td (Sum the first k values. For each next position, subtract the element leaving the window) Tj ET
+BT /F1 10 Tf 54 631 Td (    and add the new element entering it.) Tj ET
+BT /F2 10 Tf 54 611 Td (EXAMPLE) Tj ET
+BT /F1 10 Tf 54 597 Td (A = [2,1,5,1,3,2], k=3. Window sums are 8, 7, 9, and 6; the maximum is 9 from [5,1,3].) Tj ET
+BT /F2 10 Tf 54 577 Td (COMPLEXITY) Tj ET
+BT /F1 10 Tf 54 563 Td (Time: O\(n\), because each element enters and leaves at most once. Extra space: O\(1\).) Tj ET
+BT /F2 10 Tf 54 543 Td (EDGE CASES) Tj ET
+BT /F1 10 Tf 54 529 Td (Validate 1 <= k <= n. If array values may be negative, initialize the best value from) Tj ET
+BT /F1 10 Tf 54 516 Td (    the first valid window, not zero.) Tj ET
+0.5 w 54 43 m 558 43 l S
+BT /F1 8 Tf 54 28 Td (DAA-MOODLE | Study notes for learning and practice) Tj ET
+BT /F1 8 Tf 480 28 Td (Page 1 of 1) Tj ET
 endstream
 endobj
 xref
-0 6
+0 7
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000027 00000 n 
+0000000076 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000414 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 7 /Root 1 0 R >>
 startxref
-704
+1708
 %%EOF

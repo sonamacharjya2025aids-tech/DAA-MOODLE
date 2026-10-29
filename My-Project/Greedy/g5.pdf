@@ -1,50 +1,60 @@
 %PDF-1.4
+% DAA study sheet
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 5 0 obj
-<< /Length 326 >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1599 >>
 stream
-BT
-/F1 14 Tf
-72 740 Td
-(Design and Analysis of Algorithms) Tj
-0 -30 Td
-(Topic: Greedy) Tj
-0 -30 Td
-(File: g5.pdf) Tj
-0 -30 Td
-() Tj
-0 -30 Td
-(Placeholder document) Tj
-0 -30 Td
-(Add the actual problem statement here.) Tj
-0 -30 Td
-(Include the algorithm and solution.) Tj
-0 -30 Td
-(Add time and space complexity analysis.) Tj
-ET
+BT /F2 17 Tf 54 748 Td (Dijkstra's Shortest Path Algorithm) Tj ET
+BT /F1 10 Tf 54 723 Td (Topic: Greedy    File: g5.pdf) Tj ET
+0.6 w 54 711 m 558 711 l S
+BT /F2 10 Tf 54 692 Td (PROBLEM) Tj ET
+BT /F1 10 Tf 54 678 Td (Find shortest-path distances from a source vertex in a graph whose edge weights are) Tj ET
+BT /F1 10 Tf 54 665 Td (    non-negative.) Tj ET
+BT /F2 10 Tf 54 645 Td (GREEDY CHOICE) Tj ET
+BT /F1 10 Tf 54 631 Td (Repeatedly finalize the unvisited vertex with the smallest tentative distance, then) Tj ET
+BT /F1 10 Tf 54 618 Td (    relax its outgoing edges.) Tj ET
+BT /F2 10 Tf 54 598 Td (ALGORITHM) Tj ET
+BT /F1 10 Tf 54 584 Td (Set dist[source] = 0 and all other distances to infinity. Use a min-priority queue; for) Tj ET
+BT /F1 10 Tf 54 571 Td (    each edge u->v, update dist[v] if dist[u] + weight\(u,v\) is smaller.) Tj ET
+BT /F2 10 Tf 54 551 Td (EXAMPLE) Tj ET
+BT /F1 10 Tf 54 537 Td (If S-A costs 2, S-B costs 7, and A-B costs 1, the shortest distance from S to B is 3 via) Tj ET
+BT /F1 10 Tf 54 524 Td (    A.) Tj ET
+BT /F2 10 Tf 54 504 Td (COMPLEXITY) Tj ET
+BT /F1 10 Tf 54 490 Td (With adjacency lists and a binary heap: O\(\(V + E\) log V\) time and O\(V + E\) graph) Tj ET
+BT /F1 10 Tf 54 477 Td (    storage.) Tj ET
+BT /F2 10 Tf 54 457 Td (IMPORTANT) Tj ET
+BT /F1 10 Tf 54 443 Td (Dijkstra is not correct for graphs with negative edge weights. Consider Bellman-Ford for) Tj ET
+BT /F1 10 Tf 54 430 Td (    those cases.) Tj ET
+0.5 w 54 43 m 558 43 l S
+BT /F1 8 Tf 54 28 Td (DAA-MOODLE | Study notes for learning and practice) Tj ET
+BT /F1 8 Tf 480 28 Td (Page 1 of 1) Tj ET
 endstream
 endobj
 xref
-0 6
+0 7
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000027 00000 n 
+0000000076 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000414 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 7 /Root 1 0 R >>
 startxref
-688
+2065
 %%EOF

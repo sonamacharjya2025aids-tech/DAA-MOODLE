@@ -1,50 +1,56 @@
 %PDF-1.4
+% DAA study sheet
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 5 0 obj
-<< /Length 342 >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1401 >>
 stream
-BT
-/F1 14 Tf
-72 740 Td
-(Design and Analysis of Algorithms) Tj
-0 -30 Td
-(Topic: CompetitiveProgramming) Tj
-0 -30 Td
-(File: c6.pdf) Tj
-0 -30 Td
-() Tj
-0 -30 Td
-(Placeholder document) Tj
-0 -30 Td
-(Add the actual problem statement here.) Tj
-0 -30 Td
-(Include the algorithm and solution.) Tj
-0 -30 Td
-(Add time and space complexity analysis.) Tj
-ET
+BT /F2 17 Tf 54 748 Td (Valid Parentheses with a Stack) Tj ET
+BT /F1 10 Tf 54 723 Td (Topic: CompetitiveProgramming    File: c6.pdf) Tj ET
+0.6 w 54 711 m 558 711 l S
+BT /F2 10 Tf 54 692 Td (PROBLEM) Tj ET
+BT /F1 10 Tf 54 678 Td (Determine whether a string containing \(\), [], and {} is correctly balanced and nested.) Tj ET
+BT /F2 10 Tf 54 658 Td (APPROACH) Tj ET
+BT /F1 10 Tf 54 644 Td (Push each opening bracket. For a closing bracket, the stack must be nonempty and its top) Tj ET
+BT /F1 10 Tf 54 631 Td (    must be the matching opening bracket; otherwise reject. At the end, the stack must) Tj ET
+BT /F1 10 Tf 54 618 Td (    be empty.) Tj ET
+BT /F2 10 Tf 54 598 Td (EXAMPLE) Tj ET
+BT /F1 10 Tf 54 584 Td ({[\(\)]} is valid. \([\)] is invalid because the closing brackets do not match the most) Tj ET
+BT /F1 10 Tf 54 571 Td (    recent opening bracket.) Tj ET
+BT /F2 10 Tf 54 551 Td (COMPLEXITY) Tj ET
+BT /F1 10 Tf 54 537 Td (Time: O\(n\), as each character is processed once. Extra space: O\(n\) in the worst case.) Tj ET
+BT /F2 10 Tf 54 517 Td (EDGE CASES) Tj ET
+BT /F1 10 Tf 54 503 Td (The empty string is balanced under the usual definition. A closing bracket with an empty) Tj ET
+BT /F1 10 Tf 54 490 Td (    stack is immediately invalid.) Tj ET
+0.5 w 54 43 m 558 43 l S
+BT /F1 8 Tf 54 28 Td (DAA-MOODLE | Study notes for learning and practice) Tj ET
+BT /F1 8 Tf 480 28 Td (Page 1 of 1) Tj ET
 endstream
 endobj
 xref
-0 6
+0 7
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000027 00000 n 
+0000000076 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000414 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 7 /Root 1 0 R >>
 startxref
-704
+1867
 %%EOF

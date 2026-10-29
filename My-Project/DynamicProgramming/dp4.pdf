@@ -1,50 +1,59 @@
 %PDF-1.4
+% DAA study sheet
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 5 0 obj
-<< /Length 339 >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1552 >>
 stream
-BT
-/F1 14 Tf
-72 740 Td
-(Design and Analysis of Algorithms) Tj
-0 -30 Td
-(Topic: DynamicProgramming) Tj
-0 -30 Td
-(File: dp4.pdf) Tj
-0 -30 Td
-() Tj
-0 -30 Td
-(Placeholder document) Tj
-0 -30 Td
-(Add the actual problem statement here.) Tj
-0 -30 Td
-(Include the algorithm and solution.) Tj
-0 -30 Td
-(Add time and space complexity analysis.) Tj
-ET
+BT /F2 17 Tf 54 748 Td (Minimum Coin Change) Tj ET
+BT /F1 10 Tf 54 723 Td (Topic: DynamicProgramming    File: dp4.pdf) Tj ET
+0.6 w 54 711 m 558 711 l S
+BT /F2 10 Tf 54 692 Td (PROBLEM) Tj ET
+BT /F1 10 Tf 54 678 Td (Given coin denominations and an amount A, find the minimum number of coins needed to) Tj ET
+BT /F1 10 Tf 54 665 Td (    make A, or report that it is impossible.) Tj ET
+BT /F2 10 Tf 54 645 Td (STATE) Tj ET
+BT /F1 10 Tf 54 631 Td (dp[x] stores the minimum coins needed to make amount x. Set dp[0] = 0 and other states) Tj ET
+BT /F1 10 Tf 54 618 Td (    initially to infinity.) Tj ET
+BT /F2 10 Tf 54 598 Td (TRANSITION) Tj ET
+BT /F1 10 Tf 54 584 Td (For each amount x and each coin c <= x, update dp[x] = min\(dp[x], dp[x-c] + 1\) if) Tj ET
+BT /F1 10 Tf 54 571 Td (    dp[x-c] is reachable.) Tj ET
+BT /F2 10 Tf 54 551 Td (EXAMPLE) Tj ET
+BT /F1 10 Tf 54 537 Td (Coins [1,3,4], amount 6. The minimum is 2 coins: 3 + 3. A greedy choice of 4 first would) Tj ET
+BT /F1 10 Tf 54 524 Td (    need 4 + 1 + 1.) Tj ET
+BT /F2 10 Tf 54 504 Td (COMPLEXITY) Tj ET
+BT /F1 10 Tf 54 490 Td (For A as the target amount and k coin types: O\(Ak\) time and O\(A\) space.) Tj ET
+BT /F2 10 Tf 54 470 Td (IMPORTANT) Tj ET
+BT /F1 10 Tf 54 456 Td (The dynamic-programming method works for arbitrary positive denominations; greedy) Tj ET
+BT /F1 10 Tf 54 443 Td (    change-making does not always give the optimum.) Tj ET
+0.5 w 54 43 m 558 43 l S
+BT /F1 8 Tf 54 28 Td (DAA-MOODLE | Study notes for learning and practice) Tj ET
+BT /F1 8 Tf 480 28 Td (Page 1 of 1) Tj ET
 endstream
 endobj
 xref
-0 6
+0 7
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000027 00000 n 
+0000000076 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000414 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 7 /Root 1 0 R >>
 startxref
-701
+2018
 %%EOF
